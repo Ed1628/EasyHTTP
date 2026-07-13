@@ -61,7 +61,7 @@ def get_logs():
 def open_settings():
     settings_window = tk.Toplevel()
     settings_window.title("Impostazioni")
-    settings_window.geometry("400x350")
+    settings_window.geometry("400x380")
     settings_window.resizable(False, False)
 
     name_label = tk.Label(settings_window, text="Nome servizio:")

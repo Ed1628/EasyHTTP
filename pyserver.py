@@ -43,7 +43,7 @@ file_menu.add_command(
 server_menu = tk.Menu(menubar, tearoff=0)
 server_menu.add_command(
     label="Stato Server", 
-    command=lambda: sf.start_server(status_label, output_screen)
+    command=lambda: sf.show_status(status_label, output_screen)
 )
 server_menu.add_command(
     label="Apri Browser", 
